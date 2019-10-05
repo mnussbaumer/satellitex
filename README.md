@@ -7,7 +7,7 @@ Add to your mix.exs file:
 ```elixir
 defp deps do
     [
-      {:satellitex, path: "../satellitex"}
+      {:satellitex, git: "https://github.com/mnussbaumer/satellitex.git"}
     ]
 end
 ```
